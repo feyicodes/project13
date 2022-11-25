@@ -58,11 +58,16 @@ I followed the instructions on the README.md files accompanying the roles to con
 
 ![image](images/img13.png)
 
-While nginx and apache has been installed, I decided to activate the Apache load balancer by making use of variables **enable_nginx_lb** and **load_balancer_lb_required**.
+After nginx and apache roles has been created, I decided to activate the Apache load balancer by making use of variables **enable_nginx_lb**, **enable_apache_lb** and **load_balancer_lb_required**. Finally, either of  **enable_nginx_lb** or **enable_apache_lb** is set to true and ran on separate occasions successfully. 
 
 ![image](images/img14.png)
 
+![image](images/img11.png)
 
+![image](images/img12.png)
+
+
+![image](images/img15.png)
 
 
 
